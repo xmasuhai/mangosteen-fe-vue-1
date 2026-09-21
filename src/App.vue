@@ -1,11 +1,14 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { storeToRefs } from 'pinia'
+import { useCounterStore } from './stores/counter'
+
+const { count } = storeToRefs(useCounterStore())
+const { increment } = useCounterStore()
+</script>
 
 <template>
-  <h1>You are shocked!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <h1>count {{ count }}</h1>
+  <button @click="increment">+1</button>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss"></style>
