@@ -1,5 +1,7 @@
 # 🚀  mangosteen-fe-vue-1 项目启动与开发规范
 
+> 网页预览：http://xmasuhai.github.io/mangosteen-fe-vue-1-publish/index.html
+
 为了确保团队环境的一致性，本项目通过 **Corepack** 严格锁定了 Node.js 版本和包管理器（`pnpm`）。请在开发前按照以下步骤配置你的本地环境。
 
 ## 🛠️ 环境准备
