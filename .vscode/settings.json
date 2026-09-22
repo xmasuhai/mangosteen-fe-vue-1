@@ -18,5 +18,8 @@
   "spellright.documentTypes": [
     "latex",
     "plaintext"
-  ]
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
