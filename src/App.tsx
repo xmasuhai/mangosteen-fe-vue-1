@@ -12,12 +12,7 @@ export const App = defineComponent({
   setup() {
     return () => (
       <>
-        <nav>
-          <RouterLink to="/foo">foo</RouterLink>|<RouterLink to="/bar">bar</RouterLink>
-        </nav>
-        <main>
-          <RouterView />
-        </main>
+        <RouterView />
       </>
     )
   },
