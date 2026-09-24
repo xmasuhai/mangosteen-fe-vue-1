@@ -9,10 +9,6 @@
     "src/**/__tests__/*"
   ],
   "compilerOptions": {
-    "types": [
-      "vite/client",
-      "@10coding/vite-plugin-jsx-scoped/client"
-    ],
     "noUncheckedSideEffectImports": true,
     // Extra safety for array and object lookups, but may have false positives.
     "noUncheckedIndexedAccess": true,
