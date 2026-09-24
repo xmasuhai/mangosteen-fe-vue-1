@@ -1,23 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import { FooComp } from '@/views/FooComp'
-import { BarComp } from '@/views/BarComp';
+import { createRouter } from 'vue-router'
+import { routes } from '@/router/routes';
+import { routerHistory } from '@/router/routerHistory';
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
-    {
-      path: '/',
-      redirect: '/foo'
-    },
-    {
-      path: '/foo',
-      component: FooComp,
-    },
-    {
-      path: '/bar',
-      component: BarComp,
-    },
-  ],
+  history: routerHistory,
+  routes,
 })
 
 export default router
