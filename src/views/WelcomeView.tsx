@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue'
 import { RouterView } from 'vue-router'
-import s from '@/modules/welcome/welcome.module.scss'
+import s from '@/modules/welcome/Welcome.module.scss'
 
 export const WelcomeView = defineComponent({
   setup: (/* props, context */) => {
@@ -9,7 +9,7 @@ export const WelcomeView = defineComponent({
     return () => (
       <div class={s.wrapper}>
         <header class={s.title}>
-          <h1>山竹记账</h1>
+          <h1 class="text-blue">山竹记账</h1>
         </header>
         <main>
           <RouterView />

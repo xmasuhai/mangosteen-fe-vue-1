@@ -1,5 +1,5 @@
 import type { RouteRecordRaw } from "vue-router";
-import { WelcomeView } from '@/modules/welcome/WelcomeView';
+import { WelcomeView } from '@/views/WelcomeView';
 import { WelCome1stPage } from "@/modules/welcome/WelCome1stPage";
 import { Welcome2ndPage } from "@/modules/welcome/Welcome2ndPage";
 import { Welcome3rdPage } from "@/modules/welcome/Welcome3rdPage";
