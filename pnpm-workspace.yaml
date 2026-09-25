@@ -1,2 +1,6 @@
+allowBuilds:
+  '@parcel/watcher': true
+minimumReleaseAgeExclude:
+  - vite@8.3.1
 overrides:
   'typescript': 'npm:typescript-native-bridge@latest'

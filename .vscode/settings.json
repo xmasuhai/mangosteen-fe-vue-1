@@ -24,5 +24,13 @@
   },
   "[scss]": {
     "editor.defaultFormatter": "oxc.oxc-vscode"
-  }
+  },
+  "unocss.root": ".",
+  "unocss.include": [
+    "**/*.vue",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx"
+  ]
 }
