@@ -1,11 +1,15 @@
-import type { RouteRecordRaw } from "vue-router";
-import { WelcomeView } from '@/views/WelcomeView';
-import { WelCome1stPage } from "@/modules/welcome/WelCome1stPage";
-import { Welcome2ndPage } from "@/modules/welcome/Welcome2ndPage";
-import { Welcome3rdPage } from "@/modules/welcome/Welcome3rdPage";
-import { Welcome4thPage } from "@/modules/welcome/Welcome4thPage";
+import type { RouteRecordRaw } from "vue-router"
+import { WelcomeView } from '@/views/WelcomeView'
+import { WelCome1stPage } from "@/modules/welcome/WelCome1stPage"
+import { Welcome2ndPage } from "@/modules/welcome/Welcome2ndPage"
+import { Welcome3rdPage } from "@/modules/welcome/Welcome3rdPage"
+import { Welcome4thPage } from "@/modules/welcome/Welcome4thPage"
 
 export const routes: RouteRecordRaw[] = [
+  {
+    path: '/',
+    redirect: '/welcome/1',
+  },
   {
     path: '/welcome',
     name: 'welcome',
