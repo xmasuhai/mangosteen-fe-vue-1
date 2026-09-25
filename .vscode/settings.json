@@ -23,7 +23,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
-    "editor.defaultFormatter": "oxc.oxc-vscode"
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
   "unocss.root": ".",
   "unocss.include": [
