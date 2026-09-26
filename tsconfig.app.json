@@ -9,7 +9,9 @@
     "uno.config.ts"
   ],
   "exclude": [
-    "src/**/__tests__/*"
+    "src/**/__tests__/*",
+    "node_modules",
+    "dist"
   ],
   "compilerOptions": {
     "noUncheckedSideEffectImports": true,
