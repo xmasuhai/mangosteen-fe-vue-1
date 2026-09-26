@@ -6,4 +6,11 @@ export default defineConfig({
     presetWind4(),
     presetAttributify(),
   ],
+  theme: {
+    colors: {
+      // 绑定你的 CSS 变量
+      welcomeCardBg: 'var(--welcome-card-bg-color)',
+      primaryColor: 'var(--primary-color)',
+    }
+  }
 })
