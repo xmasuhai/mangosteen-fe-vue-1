@@ -32,5 +32,8 @@
     "**/*.tsx",
     "**/*.js",
     "**/*.jsx"
-  ]
+  ],
+  "path-intellisense.mappings": {
+    "@": "${workspaceFolder}/src"
+  }
 }
