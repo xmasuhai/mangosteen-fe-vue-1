@@ -1,11 +1,24 @@
 .wrapper {
-  color: red;
-
-  &:hover {
-    color: lightgreen;
-  }
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #5d33be 0%, #8F4CD7 100%);
 
   &>.title {
-    color: teal;
+    padding-top: 10%;
+    font-size: 2em;
+    color: var(--title-text);
+    flex: 0 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+
+  &>main {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
   }
 }
