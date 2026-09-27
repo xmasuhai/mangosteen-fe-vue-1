@@ -10,7 +10,7 @@ import sassDts from 'vite-plugin-sass-dts'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/mangosteen-fe-vue-1-publish/',
+  // base: '/mangosteen-fe-vue-1-publish/',
   plugins: [
     // jsxScoped({ warnMultiScopedImport: true }),
     unoCSS(),
