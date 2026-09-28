@@ -15,7 +15,7 @@ export const routes: RouteRecordRaw[] = [
     name: 'welcome',
     component: WelcomeView,
     children: [
-      { path: '', redirect: '/welcome/1' },
+      { path: '', name: 'welcomeDefault', redirect: '/welcome/1' },
       { path: '1', component: WelCome1stPage, },
       { path: '2', component: Welcome2ndPage, },
       { path: '3', component: Welcome3rdPage, },
