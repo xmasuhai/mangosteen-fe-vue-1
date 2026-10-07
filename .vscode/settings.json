@@ -35,5 +35,6 @@
   ],
   "path-intellisense.mappings": {
     "@": "${workspaceFolder}/src"
-  }
+  },
+  "js/ts.experimental.useTsgo": true
 }
